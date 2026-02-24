@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blue team field notes</title>
+    <link>https://example.org/</link>
+    <description>Recent content on blue team field notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@jawad.ch (Jawad)</managingEditor>
+    <webMaster>contact@jawad.ch (Jawad)</webMaster>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building this blog</title>
+      <link>https://example.org/blogposts/building-this-blog/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <author>contact@jawad.ch (Jawad)</author>
+      <guid>https://example.org/blogposts/building-this-blog/</guid>
+      
+      <description>&lt;h2 id=&#34;problems-encountered&#34;&gt;Problems encountered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hugo-extended is required for the theme I am using (hugo-blog-awesome). Confirm hugo-extended is installed with:!&lt;img src=&#34;https://example.org/images/Pasted%20image%2020260222121507.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transpiling Sass to CSS was required for the particular theme I am using (hugo-blog-awesome), so installation of Dart Sass is required. LibSass was deprecated in 0.153.0, so we use Dart Sass instead which is compatible with any Hugo version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install sass with chocalatey:
+&lt;code&gt;choco install sass&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We get a site rendering error using this theme because &lt;code&gt;.Site.Author&lt;/code&gt; was deprecated in Hugo v0.124.0 and has been removed in newer versions. We need to update our template and config files to use the modern &lt;code&gt;[params.author]&lt;/code&gt; convention.
+!&lt;img src=&#34;https://example.org/images/Screenshot%202026-02-22%20140914.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

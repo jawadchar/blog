@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on blue team field notes</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on blue team field notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@jawad.ch (Jawad)</managingEditor>
+    <webMaster>contact@jawad.ch (Jawad)</webMaster>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://example.org/tags/blog/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <author>contact@jawad.ch (Jawad)</author>
+      <guid>https://example.org/tags/blog/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://example.org/tags/hugo/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <author>contact@jawad.ch (Jawad)</author>
+      <guid>https://example.org/tags/hugo/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
