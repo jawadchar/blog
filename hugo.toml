@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://jawad.ch/"
 languageCode = 'en-us'
 title = 'blue team field notes'
 theme = "hugo-blog-awesome"
